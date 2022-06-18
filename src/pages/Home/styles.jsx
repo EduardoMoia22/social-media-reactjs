@@ -32,6 +32,10 @@ export const FeedContainer = styled.div`
 
   padding: 15px;
 
+  @media(max-width: 640px) {
+    max-height: 75vh;
+  }
+
   ::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
   }
@@ -53,5 +57,11 @@ export const SideBarContainer = styled.div`
   width: 200px;
   height: 300px;
 
-  background-color: yellow;
+  border-radius: 20px;
+
+  background-color: #101018;
+
+  @media(max-width: 640px) {
+    display: none;
+  }
 `;

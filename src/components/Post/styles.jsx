@@ -13,6 +13,11 @@ export const Post = styled.div`
 
   overflow: hidden;
 
+  @media(max-width: 1282px) {
+    flex-direction: column;
+    min-height: 500px;
+  }
+
   img{
     flex: 2;
     max-width: 100%;

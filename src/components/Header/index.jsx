@@ -24,10 +24,10 @@ function Header(){
             <C.ItemLink href="#">feed</C.ItemLink>
           </C.ListItem>
           <C.ListItem>
-            <C.ItemLink href="#">feed</C.ItemLink>
+            <C.ItemLink href="#">mensagens</C.ItemLink>
           </C.ListItem>
           <C.ListItem>
-            <C.ItemLink href="#">feed</C.ItemLink>
+            <C.ItemLink href="#">perfil</C.ItemLink>
           </C.ListItem>
         </C.List>
       </C.Nav>
