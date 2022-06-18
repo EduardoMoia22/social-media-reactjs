@@ -56,7 +56,7 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 2.5rem;
 
   list-style: none;
 
